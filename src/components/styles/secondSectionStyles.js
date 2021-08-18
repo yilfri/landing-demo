@@ -35,7 +35,7 @@ export const Slider = styled.div`
 	padding: 3.75rem 0;
 `;
 
-export const Whirligig = styled.div`
+export const Wheel = styled.div`
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: space-between;

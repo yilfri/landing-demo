@@ -1,6 +1,6 @@
 import React from 'react';
 import CardSlider from './CardSlider';
-import { Section, InfoSection, Slider, Whirligig } from './styles/secondSectionStyles';
+import { Section, InfoSection, Slider, Wheel } from './styles/secondSectionStyles';
 
 const SecondSection = () => {
 	return (
@@ -14,13 +14,13 @@ const SecondSection = () => {
 			</InfoSection>
 
 			<Slider>
-				<Whirligig>
+				<Wheel>
 					<CardSlider />
 					<CardSlider />
 					<CardSlider />
 					<CardSlider />
 					<CardSlider />
-				</Whirligig>
+				</Wheel>
 			</Slider>
 		</Section>
 	);
