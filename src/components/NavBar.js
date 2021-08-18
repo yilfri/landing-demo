@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import {
 	Container,
 	Menu,
@@ -14,16 +15,16 @@ const NavBar = () => {
 
 	return (
 		<Container>
-			<a href="!#">
+			<Link to={'/'}>
 				<img src="/image/visa.svg" alt="Visa" />
-			</a>
+			</Link>
 
 			<Menu>
 				<li>
 					<a href="!#">Products</a>
 				</li>
 				<li>
-					<a href="!#">Developers</a>
+					<Link to={'/users'}>Users</Link>
 				</li>
 				<li>
 					<a href="!#">Company</a>
@@ -53,7 +54,7 @@ const NavBar = () => {
 						<a href="!#">Products</a>
 					</li>
 					<li>
-						<a href="!#">Developers</a>
+						<Link to={'/users'}>Users</Link>
 					</li>
 					<li>
 						<a href="!#">Company</a>

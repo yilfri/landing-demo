@@ -1,5 +1,4 @@
 import React from 'react';
-import Header from './NavBar';
 import CreditCard from './CreditCard';
 import FirstSection from './FirstSection';
 import Heading from './Heading';
@@ -11,7 +10,6 @@ const Home = () => {
 	return (
 		<>
 			<HeaderWrapper>
-				<Header />
 				<Heading />
 				<CreditCard />
 				<Wave src="image/wave.png" alt="wave" />
