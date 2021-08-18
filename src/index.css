@@ -1,9 +1,14 @@
+:root {
+	--font-primary: #fff;
+	--font-secundary: #393c41;
+}
+
 *,
 *::after,
 *::before {
 	box-sizing: border-box;
 	font-family: 'Raleway', sans-serif;
-	color: #393c41;
+	color: #fff;
 	margin: 0;
 	padding: 0;
 }
